@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Work+Sans:wght@300;500&display=swap');=Roboto:wght@500&family=Work+Sans:wght@500&display=swap");
+
+* {
+  margin: 0 auto;
+}
+#logo {
+  width: 268px;
+  height: auto;
+}
+.drop-menu {
+  display: none;
+  position: absolute;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 0px 0px 3px rgba(111, 111, 111, 0.145);
+}
+.menu {
+  display: flex;
+  width: 252px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: roboto;
+  font-size: 15px;
+  line-height: 30px;
+  color: #ababab;
+}
+nav {
+  height: 100%;
+  width: 252px;
+}
+li {
+  list-style: none;
+}
+.menu-item:hover {
+  color: #00b39b;
+}
+.menu-item:hover .drop-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.282);
+  width: 220px;
+  height: 220px;
+  margin-left: -170px;
+}
+.dm-item {
+  color: #ababab;
+  width: 220%;
+  height: 100%;
+  margin-left: -40px;
+  padding: 0px 20px;
+}
+.dm-item:hover {
+  background-color: #ababab42;
+  color: #00b39b;
+}
+#parag {
+  display: flex;
+  justify-content: space-between;
+}
+#parag p {
+  width: 477px;
+  font-family: roboto;
+  color: #747474;
+  margin: 5px;
+  font-size: 16px;
+  line-height: 28px;
+}
+#section1 {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+}
+#section img {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 40px;
+  width: 40px;
+}
+#section1 h1 {
+  font-family: work sans;
+  font-size: 34px;
+  line-height: 44px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #00b39b;
+}
+#section2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
+#section2 div {
+  width: 311px;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin: 20px;
+  border-radius: 10px;
+}
+#pat {
+  background-color: #00ccb1;
+}
+#doc {
+  background-color: #3d83df;
+}
+#cli {
+  background-color: #1b2734;
+}
+#section2 div img {
+  justify-self: flex-start;
+}
+#section3 h1 {
+  height: 101px;
+  width: 281px;
+  font-family: work sans;
+  font-size: 26px;
+
+  line-height: 33px;
+  color: #00b39b;
+}
+#section3 {
+  display: flex;
+  width: 1015px;
+  margin-top: 15px;
+}
+
+#text {
+  display: flex;
+  flex-direction: column;
+}
+#section4 {
+  width: 100%;
+  background-image: url(https://e0.pxfuel.com/wallpapers/152/939/desktop-wallpaper-simple-background-edit-and-visual-learning-light-blue-aesthetic.jpg)
